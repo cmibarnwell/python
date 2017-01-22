@@ -1,0 +1,38 @@
+#Turtle Art program written by Caleb Barnwell
+#Computer Science, 10-04-15
+
+import turtle
+wn=turtle.Screen()
+epic=turtle.Turtle()
+
+epic.penup()
+epic.left(180)
+epic.forward(100)
+epic.right(90)
+epic.forward(50)
+epic.left(180)
+epic.pendown()
+epic.forward(100)
+epic.left(180)
+epic.forward(50)
+epic.right(90)
+epic.forward(50)
+epic.left(90)
+epic.forward(50)
+epic.left(180)
+epic.forward(100)
+epic.left(90)
+epic.penup()
+epic.forward(25)
+epic.pendown()
+epic.forward(50)
+epic.left(180)
+epic.forward(25)
+epic.right(90)
+epic.forward(100)
+epic.left(90)
+epic.forward(25)
+epic.left(180)
+epic.forward(50)
+
+wn.exitonclick()
